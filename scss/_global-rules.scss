@@ -1,0 +1,81 @@
+@use "_variables.scss" as *;
+@use '_mixins.scss' as *;
+
+/*! start setting global properties */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "r-reg", sans-serif;
+}
+
+@font-face {
+  font-family: "p-reg";
+  src: url("../fonts/Poppins-Regular.ttf");
+
+}
+@font-face {
+  font-family: "p-med";
+  src: url("../fonts/Poppins-Medium.ttf");
+
+}
+@font-face {
+  font-family: "r-reg";
+  src: url("../fonts/Roboto-Regular.ttf");
+
+}
+@font-face {
+  font-family: "r-med";
+  src: url("../fonts/Roboto-Medium.ttf");
+
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0;
+}
+.sec-header{
+  width: 60%;
+  margin: auto{
+    bottom: 30px,
+  };
+  text-align: center;
+  h1{
+    font-family: "p-med";
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  p{
+    font-family: "r-reg";
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width : 767px){
+  .sec-header{
+      width: 100% !important;
+    h1{
+      font-size: 25px;
+    }
+    p{
+      font-size: 14px !important;
+    }
+  }
+}
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+/*! end setting global properties */
