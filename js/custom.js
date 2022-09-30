@@ -1,9 +1,6 @@
 $(function () {
   // set declaration 
-  // set loading screen
-   $(window).on("load",function(){
-      $(".loading").fadeOut(2500).remove();
-      });
+ 
   // set loading section animation 
     // -- main header 
      $(".main-header .images img").addClass("animate__animated animate__flip");
@@ -91,3 +88,7 @@ $(function () {
      ,1000);
   });
 });
+  // set loading screen
+$(window).on("load",function(){
+   $(".loading").fadeOut(1500).remove();
+   });
