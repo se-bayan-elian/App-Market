@@ -72,7 +72,7 @@ body {
 /*! end setting global properties */
 /*! start main header setting style */
 .main-header {
-  background: url("../images/header-section/Banner-Slider.png") no-repeat;
+  background: url("../..//images/header-section/Banner-Slider.png") no-repeat;
   width: 99vw;
   height: 112vh;
   background-size: cover !important;
@@ -284,6 +284,62 @@ body {
   }
   .main-header .header-body {
     padding-top: 20px !important;
+  }
+}
+@media (min-width: 1800px) {
+  .main-header .container {
+    max-width: 80% !important;
+  }
+  .main-header .container .navbar-sec {
+    margin-bottom: 60px;
+  }
+  .main-header .container .navbar-sec .navbar-collapse .navbar-nav {
+    margin: 0 !important;
+    gap: 23px !important;
+  }
+  .main-header .container .navbar-sec .navbar-collapse a {
+    font-size: 22px !important;
+  }
+  .main-header .container .navbar-sec .navbar-brand h1 {
+    font-size: 38px !important;
+  }
+  .main-header .container .navbar-sec .navbar-brand img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .main-header .container .header-body h1 {
+    font-size: 55px !important;
+  }
+  .main-header .container .header-body p {
+    font-size: 24px !important;
+    margin-bottom: 30px !important;
+  }
+  .main-header .container .header-body a {
+    font-size: 24px !important;
+  }
+  .main-header .container .header-body .images {
+    margin-top: -125px !important;
+  }
+  .main-header .container .header-body .images img {
+    width: 317px !important;
+    height: 509px !important;
+    margin-left: -60px;
+  }
+  .main-header .container .header-body .images img:nth-child(2) {
+    width: 432px !important;
+    height: 694px !important;
+  }
+  .main-header .container .navbar-sec .navbar .navbar-collapse .navbar-nav .btn {
+    width: 141px;
+  }
+  .portfolio-sec .sec-body > img {
+    width: 420px !important;
+    height: 350px !important;
+    top: 22% !important;
+    right: -18% !important;
+  }
+  footer .contact-us {
+    width: 43% !important;
   }
 }
 /*! start loading section setting style */

@@ -34,7 +34,7 @@ $(function () {
             $(".clients-feedback-sec .sec-header").addClass("animate__animated animate__fadeInDown");
             $(".clients-feedback-sec  .feedback").addClass("animate__animated animate__fadeIn");
        }
-       if($(this).scrollTop() >= $(".contact-us").offset().top -300){
+       if($(this).scrollTop() >= $(".contact-us").offset().top -400){
             $(".contact-us").css("visibility","visible");
             $(".contact-us").addClass("animate__animated animate__fadeIn");
        }

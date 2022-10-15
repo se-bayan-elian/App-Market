@@ -6,7 +6,7 @@
 .main-header {
   background: url('../images/header-section/Banner-Slider.png') no-repeat;
   width: 99vw;
-  height: 100vh +12;
+  height: 100vh+12;
   background-size: cover !important;
   padding: 20px 0px 0px;
 
@@ -313,6 +313,87 @@
     .header-body {
       padding-top: 20px !important;
     }
+  }
+}
+
+@media (min-width : 1800px) {
+  .main-header {
+    .container {
+      max-width: 80% !important;
+
+      .navbar-sec {
+        margin-bottom: 60px;
+
+        .navbar-collapse {
+
+          .navbar-nav {
+            margin: 0 !important;
+            gap: 23px !important;
+          }
+
+          a {
+            font-size: 22px !important;
+          }
+        }
+
+        .navbar-brand {
+          h1 {
+            font-size: 38px !important;
+          }
+
+          img {
+            width: 40px !important;
+            height: 40px !important;
+          }
+        }
+      }
+
+      .header-body {
+        h1 {
+          font-size: 55px !important;
+        }
+
+        p {
+          font-size: 24px !important;
+          margin-bottom: 30px !important;
+        }
+
+        a {
+          font-size: 24px !important;
+        }
+
+        .images {
+          margin-top: -125px !important;
+
+          img {
+            width: 317px !important;
+            height: 509px !important;
+            margin-left: -60px;
+
+            &:nth-child(2) {
+              width: 432px !important;
+              height: 694px !important;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  .main-header .container .navbar-sec .navbar .navbar-collapse .navbar-nav .btn {
+    width: 141px;
+  }
+
+  .portfolio-sec .sec-body>img {
+    width: 420px !important;
+    height: 350px !important;
+    top: 22% !important;
+    right: -18% !important;
+  }
+
+  footer .contact-us {
+    width: 43% !important;
   }
 }
 
