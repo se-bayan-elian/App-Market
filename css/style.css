@@ -72,7 +72,7 @@ body {
 /*! end setting global properties */
 /*! start main header setting style */
 .main-header {
-  background: url("../..//images/header-section/Banner-Slider.png") no-repeat;
+  background: url("../images/header-section/Banner-Slider.png") no-repeat;
   width: 99vw;
   height: 112vh;
   background-size: cover !important;
